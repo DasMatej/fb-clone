@@ -1,3 +1,8 @@
 1.Delete app.js ,logo and setup.js 
 - for clean blank site
 2.app.js App changeto app clear everythin and logo.
+3. change clear app.css and add *{margin: 0;} in index.css
+4.Create firebase and add firebase.js
+5.Header.js and css
+6. Header start Material - UI
+7.Header Placement
