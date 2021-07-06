@@ -2,7 +2,8 @@ import React from "react";
 import "./App.css";
 import Header from "./Header";
 import Sidebar from "./Sidebar"
-
+import SidebarRow from "./SidebarRow";
+import Feed from "./Feed";
 function App() {
   return (
     // BEM naming convention
@@ -13,9 +14,13 @@ function App() {
       
       {/* App body */}
       <div className="app__body">
+
         {/* Sidebar */}
         <Sidebar />
+
         {/* Feed */}
+        <Feed></Feed>
+
         {/* Widgets */}
       </div>
     </div>
