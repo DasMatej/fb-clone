@@ -9,3 +9,5 @@
 8.Header done
 9.Sidebar and SidebarRow done
 10.Feed Looks
+11.Feed done
+12.Widget 

@@ -24,7 +24,7 @@ function MessageSender() {
             <div className="messageSender__top">
                 <Avatar />
                 <form>
-                    <input 
+                    <input className="messageSender__input"
                     value={input}
                     onChange={(e) => setInput(e.target.value)}
                     type="text" 
@@ -44,11 +44,16 @@ function MessageSender() {
                 <div className="messageSender__option">
                     <VideocamIcon style={{color: "red"}}></VideocamIcon>
                     <h3>Live Video</h3>
-                    <PhotoLibraryIcon style={{color: "green"}}></PhotoLibraryIcon>
+                </div>
+                <div className="messageSender__option">
+                <PhotoLibraryIcon style={{color: "green"}}></PhotoLibraryIcon>
                     <h3>Photo/Video</h3>
-                    <InsertEmoticonIcon style={{color: "orange"}}></InsertEmoticonIcon>
+                </div>
+                <div className="messageSender__option">
+                <InsertEmoticonIcon style={{color: "orange"}}></InsertEmoticonIcon>
                     <h3>Feeling/Activity</h3>
                 </div>
+                
             </div>
             
         </div>

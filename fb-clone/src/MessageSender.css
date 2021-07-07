@@ -38,7 +38,8 @@
 
 .messageSender__bottom{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    
 }
 .messageSender__option{
     padding: 20px;
@@ -51,7 +52,7 @@
 
 .messageSender__option h3{
     font-size: medium;
-    margin-left: 20px;
+    margin-left: 10px;
     cursor: pointer;
 }
 
